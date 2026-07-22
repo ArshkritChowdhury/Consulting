@@ -118,7 +118,6 @@
         <p style="font-size:16.5px;line-height:1.7;color:rgba(241,240,234,.8);max-width:560px;margin:0 0 20px;">Today, I partner with venture-backed teams to handle the critical 0-to-1 work most founders don't have time for: fixing blurry positioning, building the narrative and strategy behind it, and installing an AI-powered, repeatable system. You get the output of a full marketing hire, including positioning, narrative, and sales enablement, without the six-month search to find one.</p>
         <div style="display:flex;gap:14px;">
         <a href="{{ calendlyUrl }}" target="_blank" style="display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;padding:14px 22px;border-radius:2px;background:{{ accentColor }};color:#fff;">Book a Call</a>
-        <a href="mailto:arshkrit@gmail.com" style="display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;padding:14px 22px;border-radius:2px;background:transparent;border:1px solid rgba(241,240,234,.4);color:#F1F0EA;">Contact Me</a>
       </div>
       </div>
       <div>
@@ -129,9 +128,7 @@
           <a href="https://www.linkedin.com/in/arshkrit/" target="_blank" aria-label="LinkedIn" style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:2px;background:transparent;border:1px solid rgba(241,240,234,.4);color:#F1F0EA;">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
           </a>
-          <a href="mailto:arshkrit@gmail.com" aria-label="Email" style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:2px;background:transparent;border:1px solid rgba(241,240,234,.4);color:#F1F0EA;">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>
-          </a>
+
         </div>
       </div>
     </div>
@@ -234,7 +231,7 @@
       <p style="max-width:440px;margin:0 auto 36px;color:rgba(241,240,234,.75);font-size:16px;line-height:1.6;">Book a free 30-minute discovery call. We'll talk through where your biggest growth opportunity is, and what it would take to unlock it.</p>
       <div style="display:flex;justify-content:center;gap:14px;">
         <a href="{{ calendlyUrl }}" target="_blank" style="display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;padding:14px 22px;border-radius:2px;background:{{ accentColor }};color:#fff;">Book a 30-Min Strategy Sync</a>
-        <a href="mailto:arshkrit@gmail.com" style="display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;padding:14px 22px;border-radius:2px;background:transparent;border:1px solid rgba(241,240,234,.4);color:#F1F0EA;">Contact Us</a>
+
       </div>
     </div>
   </section>
@@ -244,7 +241,7 @@
   <sc-if value="{{ isCase }}" hint-placeholder-val="{{ false }}">
     <section style="padding:60px 0 100px;">
       <div style="max-width:1120px;margin:0 auto;padding:0 40px;">
-        <button onClick="{{ goHome }}" style="display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:{{ mutedColor }};background:none;border:none;padding:0;margin-bottom:40px;cursor:pointer;font-family:JetBrains Mono,monospace;letter-spacing:.04em;">← Back to Home</button>
+        <button onClick="{{ goHome }}" style="display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:{{ textColor }};background:none;border:1px solid {{ lineColor }};padding:10px 16px;margin-bottom:40px;cursor:pointer;font-family:JetBrains Mono,monospace;letter-spacing:.04em;border-radius:2px;"><span style="font-size:17px;line-height:1;">←</span> Back to Home</button>
 
 
         <h1 style="font-family:Fraunces,serif;font-size:clamp(42px,7vw,84px);font-weight:600;font-optical-sizing:auto;letter-spacing:-0.01em;color:{{ textColor }};margin:0 0 24px;">{{ activeCase.name }}</h1>
@@ -298,7 +295,7 @@
   <footer style="padding:36px 0;">
     <div style="max-width:1120px;margin:0 auto;padding:0 40px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:{{ mutedColor }};">
       <span style="font-family:Fraunces,serif;font-size:14px;">Marketing Without Millions</span>
-      <span><a href="https://www.linkedin.com/in/arshkrit/" target="_blank">LinkedIn</a> · <a href="mailto:arshkrit@gmail.com">Email</a></span>
+      <span><a href="https://www.linkedin.com/in/arshkrit/" target="_blank">LinkedIn</a></span>
       <span>© 2026. All rights reserved</span>
     </div>
   </footer>
@@ -308,7 +305,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440},&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;warm&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;cool&quot;,&quot;warm&quot;,&quot;studio&quot;,&quot;slate&quot;],&quot;section&quot;:&quot;Style&quot;},&quot;accentColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#FF4B2E&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#FF4B2E&quot;,&quot;#D9663D&quot;,&quot;#C9A15C&quot;,&quot;#2A6B5E&quot;],&quot;section&quot;:&quot;Style&quot;},&quot;logoStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;monogramOrange&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;monogramOrange&quot;,&quot;monogramSVG&quot;,&quot;squareBaloo&quot;,&quot;squarePoppins&quot;,&quot;squareSora&quot;,&quot;squareFraunces&quot;,&quot;soft&quot;,&quot;bigM&quot;,&quot;cornerBadge&quot;,&quot;circle&quot;,&quot;square&quot;,&quot;brackets&quot;,&quot;underline&quot;,&quot;stacked&quot;,&quot;rule&quot;,&quot;dot&quot;,&quot;wordmark&quot;],&quot;section&quot;:&quot;Style&quot;},&quot;calendlyUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;https://calendly.com/your-link/30min&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
 class Component extends DCLogic {
-  state = { view: 'home', activeSlug: null, openService: 0 };
+  state = { view: 'home', activeSlug: null, openServices: {} };
 
   workData = [
     {slug:'typeface', tag:'AI · Unicorn', name:'Typeface', blurb:"Built core narrative and positioning as the category matured from novelty to enterprise necessity.", industry:'Agentic AI', role:'Senior Product Marketing Manager',year:'2025–Current',
@@ -460,7 +457,7 @@ class Component extends DCLogic {
       ...theme,
       isHome: this.state.view === 'home',
       isCase: this.state.view === 'case' && !!activeCase,
-      goHome: () => this.setState({ view: 'home', activeSlug: null }),
+      goHome: () => { this.setState({ view: 'home', activeSlug: null }); document.documentElement.scrollTop = 0; },
       activeCase,
       logos: (() => {
         const set = [
@@ -487,18 +484,18 @@ class Component extends DCLogic {
         {text:"A full-time VP of Marketing search takes 6+ months you don't have."}
       ],
       workItems: this.workData.map(w => ({...w,
-        open: w.slug === 'fivetran' ? () => window.open('https://www.fivetran.com/people/arshkrit-chowdhury', '_blank') : w.slug === 'intercom' ? () => window.open('https://www.intercom.com/blog/author/arshkritchowdhury/', '_blank') : w.slug === 'alation' ? undefined : () => this.setState({ view: 'case', activeSlug: w.slug }),
+        open: w.slug === 'fivetran' ? () => window.open('https://www.fivetran.com/people/arshkrit-chowdhury', '_blank') : w.slug === 'intercom' ? () => window.open('https://www.intercom.com/blog/author/arshkritchowdhury/', '_blank') : w.slug === 'alation' ? undefined : () => { this.setState({ view: 'case', activeSlug: w.slug }); document.documentElement.scrollTop = 0; },
         clickable: w.slug === 'alation' ? 'default' : 'pointer',
         displayName: w.slug === 'alation' ? w.name : `${w.name} →`
       })),
       services: this.servicesData.map((s, i) => ({
         ...s,
         idx: i,
-        isOpen: this.state.openService === i,
+        isOpen: !!this.state.openServices[i],
         hasBullets: !!s.bullets,
         hasBody: !!s.body,
-        chevron: this.state.openService === i ? '−' : '+',
-        toggle: () => this.setState({ openService: this.state.openService === i ? -1 : i })
+        chevron: this.state.openServices[i] ? '−' : '+',
+        toggle: () => this.setState(prev => ({ openServices: {...prev.openServices, [i]: !prev.openServices[i]} }))
       })),
       testimonials: [
         {quote:"A very talented marketer with a rare breadth of skill: she goes deep fast, then elevates that expertise to drive marketing and sales. She juggles many stakeholders, never drops a ball, and is an absolute asset to any team.", name:'Christine Sotelo-Dag', role:'Head of Product Marketing', avatar:'assets/testimonial-christine.jpeg'},
